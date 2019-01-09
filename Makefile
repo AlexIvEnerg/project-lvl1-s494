@@ -4,11 +4,11 @@
 compile-run: compile run
 
 run:
-		java -cp ./target/classes games.Slot
+	java -cp ./target/classes games.Slot
 
 clean:
-		rm -rf ./target
+	rm -rf ./target
 
 compile: clean
-		mkdir -p ./target/classes
-		javac -d ./target/classes ./src/main/java/games/Slot.java
+	mkdir -p ./target/classes
+	javac -d ./target/classes ./src/main/java/games/Slot.java
